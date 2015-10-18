@@ -168,5 +168,6 @@ int main()
 		case 5:cout<<*work[cinflag-1];setHours(*work[cinflag-1]);break;
 		}
 	}
+	delete []*work;
 	system("pause");
 }
